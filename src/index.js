@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-//C:\Users\ASUS\Projects\portfolio\node_modules\bootstrap\dist\css\bootstrap.min.css
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.js'
 import './index.css';
