@@ -7,15 +7,15 @@ import Home from './pages/Home'
 import Skills from './pages/Skills'
 function App() {
   return (
-    <div>
-      <BrowserRouter>
+    <BrowserRouter>
         <NavBar />
+    <div className='container mt-5'>
         <Route exact path= '/' component={Home}/>
         <Route path= '/projects' component={Projects}/>
         <Route path= '/skills' component={Skills}/>
         <Route path= '/contact' component={Contact}/>
-      </BrowserRouter>
     </div>
+      </BrowserRouter>
   );
 }
 
