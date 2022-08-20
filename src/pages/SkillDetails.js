@@ -22,7 +22,9 @@ function SkillDetails() {
         {skill ? (
         <div style={{textAlign:'center'}}>
             <h1> {skill.name} </h1>
+            <br/>
             <img src={skill.image} width='200px' alt={skill.name} />
+            <br/>
             <p> {skill.description} </p>
         </div>
         ) : (<h2> skill not found </h2>)}
